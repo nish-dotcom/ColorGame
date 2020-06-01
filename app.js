@@ -12,11 +12,11 @@ app.get("/colorGame.js", function(req, res) {
     res.sendFile(__dirname + "/colorGame.js");
   });
 
-// app.listen(process.env.PORT, process.env.IP, function(){
-//     console.log("The Server Has Started!");
-//  });
+app.listen(process.env.PORT, process.env.IP, function(){
+    console.log("The Server Has Started!");
+ });
 
-app.listen(3000, function(req,res){
-	console.log("The Server has Started!")	   
-});
+// app.listen(3000, function(req,res){
+// 	console.log("The Server has Started!")	   
+// });
 	
